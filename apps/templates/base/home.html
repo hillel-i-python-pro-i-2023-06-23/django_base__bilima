@@ -1,10 +1,8 @@
-{% extends "_helpers/base.html" %}
+{% extends '_helpers/base.html' %}
 
-{% block title %}
-    {{ title }}
-{% endblock %}
-
+{% block title %}Home - {{ block.super }}{% endblock %}
 
 {% block content %}
-    <p>{{ greeting }}</p>
+<h1>Welcome to our website!</h1>
+<p>This is the home page.</p>
 {% endblock %}
