@@ -4,9 +4,9 @@ from django.views import View
 
 class HomeView(View):
     def get(self, request):
-        return render(request, 'base/home.html')
+        return render(request, "base/home.html")
 
 
 class AboutView(View):
     def get(self, request):
-        return render(request, 'base/about.html')
+        return render(request, "base/about.html")
